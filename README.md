@@ -1,8 +1,8 @@
 ### Flapi-UI
 
-A simple UI layer for a web application which hits the Flickr public API to retrieve photos. A Node backend is required for this project which can be found here:
+A simple UI layer for a web application which hits the Flickr public API to retrieve photos. A Node backend is required for this project which can be found [here](https://github.com/ollyd/flapi-bff).
 
-You can test out a live version of the app here:
+You can test out a live demo version of the app [here](http://oilymutton-flapi-ui.s3-website-ap-southeast-2.amazonaws.com/). 
 Note: the first time you hit the backend it will take a few seconds. This is because it's hosted on Heroku and it needs some time for the dyno to fire up. Subsequent hits will be much faster.
 
 ### Tech
