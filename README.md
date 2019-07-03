@@ -41,7 +41,8 @@ Lots to do still!...
 | Errors | Add Error Boundaries and better GraphQL error handling |
 | Optimisation | The bundle is a bit large around 500kb. Would implement gzip compression, and potentially code splitting.  |
 | Testing | I have only provided an example style, unit and integration tests. Coverage is extremely thin. |
-| Security | Would add https for production |
+| Security | Would add https for production. |
+| Bugs | Fix loading animation. |
 
 ### Considerations
 
