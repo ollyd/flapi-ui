@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Input>: Style snapshot tests should have correct styles 1`] = `
+.c0 {
+  position: fixed;
+  top: 15px;
+  z-index: 2;
+  margin-left: auto;
+  right: 15rem;
+}
+
+.c1 {
+  font-size: 1.8rem;
+  font-weight: 300;
+  color: #1abc9c;
+  padding: 0.8rem 0.8rem 0.8rem 0.4rem;
+  display: block;
+  width: 30rem;
+  border: none;
+  border-bottom: 1px solid #1abc9c;
+  background-color: #34495e;
+  margin-left: auto;
+  margin-top: 0.8rem;
+}
+
+.c1:focus {
+  outline: none;
+}
+
+.c2 {
+  position: relative;
+  display: block;
+  width: 30rem;
+}
+
+.c2:before,
+.c2:after {
+  content: '';
+  height: 0.2rem;
+  width: 0;
+  bottom: 0.1rem;
+  position: absolute;
+  background: #1abc9c;
+  -webkit-transition: 0.2s ease all;
+  transition: 0.2s ease all;
+}
+
+@media (max-width:960px) {
+  .c0 {
+    right: 5rem;
+  }
+}
+
+@media (max-width:600px) {
+  .c0 {
+    right: 0.8rem;
+  }
+}
+
+@media (max-width:600px) {
+  .c1 {
+    width: 20rem;
+  }
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <input
+      class="c1"
+      placeholder="Search"
+      type="text"
+      value="cats"
+    />
+    <span
+      class="c2"
+    />
+  </div>
+</div>
+`;
